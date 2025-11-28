@@ -22,7 +22,6 @@ public class SearchTests {
         // .classname #id1 [] a[href=abc].red
         // проверка: заголовок selenide/selenide
         $("[href=\"/selenide/selenide\"]").shouldHave(Condition.text("selenide/selenide"));
-        sleep(7000);
 
     }
 
