@@ -12,7 +12,7 @@ public class SearchTests {
     @Test
     void shouldFindSelenideRepositoryStTheTop() {
 
-        //открыть главную страницу!!!
+        //открыть главную страницу!!!!!
         open("https://github.com/");
         // ввести в поле поиска selenide и нажать enter
         $("[placeholder=\"Search or jump to...\"]").click();
