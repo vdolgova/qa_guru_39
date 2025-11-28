@@ -23,6 +23,7 @@ public class SearchTests {
         // проверка: заголовок selenide/selenide
         $("[href=\"/selenide/selenide\"]").shouldHave(Condition.text("selenide/selenide"));
 
+
     }
 
 }
