@@ -12,7 +12,7 @@ public class SearchTests {
     @Test
     void shouldFindSelenideRepositoryStTheTop() {
 
-        //открыть главную страницу
+        //открыть главную страницу!!!
         open("https://github.com/");
         // ввести в поле поиска selenide и нажать enter
         $("[placeholder=\"Search or jump to...\"]").click();
@@ -22,7 +22,6 @@ public class SearchTests {
         // .classname #id1 [] a[href=abc].red
         // проверка: заголовок selenide/selenide
         $("[href=\"/selenide/selenide\"]").shouldHave(Condition.text("selenide/selenide"));
-        sleep(8000);
 
     }
 
